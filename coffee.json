@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Caffe Macchiato",
+        "price": "1250"
+    },
+    {
+        "id": 2,
+        "name": "Espresso",
+        "price": "800"
+    },
+    {
+        "id": 3,
+        "name": "Espresso Lungo",
+        "price": "1050"
+    },
+    {
+        "id": 4,
+        "name": "Latte Macchiato",
+        "price": "1150"
+    },
+    {
+        "id": 5,
+        "name": "Café Au Lait",
+        "price": "950"
+    },
+    {
+        "id": 6,
+        "name": "Flat White",
+        "price": "1100"
+    }
+]

@@ -1,0 +1,53 @@
+body {
+    scroll-behavior: smooth;
+ }
+
+.container-fluid {
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+.hatter {
+    background-image: url(img/ablakos.jpg);
+    background-size: cover;
+    
+}
+
+.hatter::before {
+    content: '';
+    opacity: 0.75;
+    }
+
+.kep {
+    width: 500px;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 1s;
+    opacity: 0.8;
+}
+
+.kep:hover {
+    transform: translate(250px);
+    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.szoveg {
+    float: right;
+    width: 500px;
+    background-color: rgb(224, 218, 218);
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 40px;
+    margin: 90px 90px 0px 0px;
+    opacity: 0.5;
+    transition: 1s;
+}
+
+.szoveg:hover {
+    opacity: 0.7;
+    transition: 1s;
+    transform: scale(1.1);
+}
